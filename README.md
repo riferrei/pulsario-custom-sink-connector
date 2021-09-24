@@ -19,7 +19,7 @@ mvn clean package
 
 After building the connector, you can try it by using the Docker-based installation from this repository.
 
-### 1 - Starting the environment
+### 1 - Start Apache Pulsar
 
 Start the environment with the following command:
 
@@ -49,6 +49,14 @@ util/send-message.sh
 
 ```bash
 util/sink-status.sh
+```
+
+### 5 - Stop Apache Pulsar
+
+Start the environment with the following command:
+
+```bash
+docker compose down
 ```
 
 # License
