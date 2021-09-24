@@ -1,0 +1,4 @@
+configs:
+    requiredParam: "Apache"
+    nonRequiredParam: "Pulsar"
+    paramWithDefaultValue: 100
